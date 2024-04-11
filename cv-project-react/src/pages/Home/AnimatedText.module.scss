@@ -1,0 +1,19 @@
+.typingContainer {
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: #333; // culoare textului
+    margin-bottom: 10rem;
+
+    .textEffect{
+      margin: 0;
+      position: absolute;
+      display: flex;
+      color:  rgb(75 58 41);
+      font-size: 3rem;
+      margin-left: 10rem;
+      margin-top: -5rem;
+      
+       // eliminăm marginile paragrafului pentru a evita spațiile inutile
+    }
+  }

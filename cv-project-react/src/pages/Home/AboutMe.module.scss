@@ -1,0 +1,30 @@
+
+.mainContainer{
+    width: 100%;
+    
+    .aboutMeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem; /* Aliniază elementele pe axa verticală în centru */
+  
+    .h2Title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     color:  rgb(0 0 0 / 64%);
+     font-size: 2rem;
+     
+   
+    }
+  
+    .contentStyle {
+      color: rgb(51 39 28);
+      margin: 1rem 1rem;
+      font-size: 1.5rem;
+ 
+    }
+  }
+}
+

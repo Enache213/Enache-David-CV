@@ -1,0 +1,54 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:rgb(90 63 37 / 28%);
+
+  .left {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  .socialIco {
+    display: flex;
+    margin-right: 45rem;
+    margin-top: 0.5rem;
+
+    :hover {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .icons {
+      margin-right: 0.5rem;
+      cursor: pointer;
+      color: rgba(0, 0, 0, 0.64);
+      font-size: 1.6rem;
+    }
+  }
+
+  .right {
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    .buttonStyle {
+      display: flex;
+      margin-left: 20px;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.64);
+      font-weight: bold;
+      font-size: 1.3rem;
+
+    }
+  }
+}
