@@ -7,8 +7,6 @@
         width: 19rem;
         height: 19rem;
         margin-left: auto;
-        margin-top: 10rem;
-       
            margin-right: 5rem;
          margin-top: 4rem;
 
@@ -24,7 +22,6 @@
             position: relative;
             width: 18rem;
             height: 18rem;
-            // margin-left: -10rem;
          
             margin-top: 1rem;
 
@@ -44,7 +41,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 3rem; /* Aliniază elementele pe axa verticală în centru */
+        // margin-top: 3rem; /* Aliniază elementele pe axa verticală în centru */
       
         .h2Title {
           display: flex;
@@ -52,6 +49,7 @@
           justify-content: center;
          color:  rgb(0 0 0 / 64%);
          font-size: 2rem;
+         margin-top: -4rem;
          
        
         }

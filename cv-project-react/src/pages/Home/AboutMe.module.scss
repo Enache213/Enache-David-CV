@@ -1,30 +1,128 @@
 
 .mainContainer{
     width: 100%;
-    
+    // margin-bottom: 40rem;
+        
     .aboutMeContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem; /* Aliniază elementele pe axa verticală în centru */
+  
   
     .h2Title {
       display: flex;
       align-items: center;
       justify-content: center;
-     color:  rgb(0 0 0 / 64%);
-     font-size: 2rem;
+     color: rgb(0 0 0 / 64%);
+     font-size: 3rem;
      
    
     }
   
     .contentStyle {
-      color: rgb(51 39 28);
-      margin: 1rem 1rem;
+      color:  rgb(51, 39, 28);
+      margin: 2rem  ;
       font-size: 1.5rem;
  
     }
+ 
   }
+
+  .courseContainer{
+margin-top: 5rem;
+
+.titleStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  rgb(0 0 0 / 64%);
+  font-size: 2.3rem;
+}
+
+.courseSection{
+  position: relative;
+  // flex-direction: row;
+  display: flex;
+  width: 80%;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+
+  
+
+.styleContent{
+   display: flex;
+   margin-top: 4rem;
+   color: rgb(51 39 28);
+   margin: 0 2rem;
+   font-size: 1.5rem;
+   width: 30%;
+}
+  .imageStyle{
+  width: 300px;
+  height: 300px;
+
+   }
+
+
+}
+
+
+
+
+.secondTitleStyle{
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  color:  rgb(0 0 0 / 64%);
+}
+
+.ulStyle{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+
+  .liStyle{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+    color: rgb(51, 39, 28);
+  }
+}
+  }
+
+
+.schoolStyle{
+  
+
+  .titleSchoolStyle{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  rgb(0 0 0 / 64%);
+  font-size: 2.3rem;
+  }
+ .schoolInfo {
+    display: flex;
+    align-items: center; 
+   
+    margin: 1rem;
+}
+
+.styleText {
+   
+   color: rgb(51, 39, 28);
+   font-size: 1.3rem;
+}
+.yearsStyle{
+  font-size: 1.3rem;
+  margin-left: 60rem;
+  font-weight: bold;
+}
+}
 }
 

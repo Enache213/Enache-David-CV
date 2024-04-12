@@ -19,6 +19,19 @@ const HomeButton = () => {
       Home
     </Button>
   );  
+}
+
+
+const handleAboutMeClick = () => {
+  window.scrollTo(0, 0); // Du-te la începutul paginii
+}
+
+const AboutMeButton = () => {
+  return (
+    <Button className={styles.buttonStyle} onClick={handleAboutMeClick} component={Link} to="/About Me">
+      ABOUT ME
+    </Button>
+  );  
 
 }
 
@@ -41,9 +54,7 @@ const NavBar = () => {
 
       <div className={styles.right}>
       <HomeButton></HomeButton>
-      <Button className={styles.buttonStyle} component={Link} to="/About Me">
-        About Me
-      </Button>
+      <AboutMeButton></AboutMeButton>
       <Button className={styles.buttonStyle} component={Link} to="/Contact">
         Contact
       </Button>
