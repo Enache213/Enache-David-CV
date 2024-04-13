@@ -1,11 +1,11 @@
 
 import React from 'react';
-import styles from './Contact.module.scss'
+import ContactMe from '../../pages/Home/ContactMe'
 
 const Contact = () => {
   return (
-    <div className={styles.mainContainer}>
-   
+    <div>
+   <ContactMe></ContactMe>
  
     </div>
   );

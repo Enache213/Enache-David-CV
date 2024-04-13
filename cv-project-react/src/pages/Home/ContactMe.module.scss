@@ -1,0 +1,35 @@
+.mainContainer{
+  height: 63vh;
+  margin-top: 10rem;
+//   border: 2px solid black;
+
+.formStyle{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // margin-bottom: 6rem;
+    color: rgb(51, 39, 28)
+}
+.field{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(51, 39, 28);
+    
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  color: whitesmoke;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 54%;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+
+}

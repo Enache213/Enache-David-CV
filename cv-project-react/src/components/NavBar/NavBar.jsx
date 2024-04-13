@@ -47,7 +47,7 @@ const NavBar = () => {
       <a href="https://github.com/Enache213" target="_blank" rel="noopener noreferrer">
         <GitHubIcon className={styles.icons}/>
       </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dedavid09@gmail.com" target="_blank" rel="noopener noreferrer">
         <EmailIcon className={styles.icons}/>
       </a>
     </div>

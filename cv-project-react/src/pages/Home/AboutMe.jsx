@@ -2,8 +2,31 @@
 import styles from './AboutMe.module.scss'
 import React from 'react';
 import myDiplomaIt from '../../assets/myDiplomaIt.jpg'
+import { useState } from 'react';
+
+const handleImageClick = () => {
+  const image = document.getElementById('myImage');
+  if (image.style.width === '9rem') {
+    image.style.width = '30rem';
+    image.style.height = '30rem';
+  } else {
+    image.style.width = '9rem';
+    image.style.height = '9rem';
+  }
+};
+
 
 const AboutMe = () => {
+  const [showText, setShowText] = useState(false);
+
+  
+  const handleMouseEnter = () => {
+    setShowText(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowText(false);
+  };
     return(
         <div className={styles.mainContainer}>
          <div className={styles.aboutMeContainer}>
@@ -25,11 +48,20 @@ const AboutMe = () => {
              <h2 className={styles.titleStyle}>Course Front-End Developer   2023-2024</h2>
             <div className={styles.courseSection}>
             <h3 className={styles.styleContent}>
-            I could grab a nice description from the internet about what I did in this course, but I'd like to put it in my own words.
-            In this course, I learned the basics and perhaps even more of the front-end area such as HTML, CSS, JavaScript, and React. Of course, we were also informed about Git and GitHub.
-              Below, I'll briefly describe what I learned in this course.
+            I could get a nice description from the internet about what I did in this course,
+             but I'd like to say it in my own words. In this course,
+              I learned the basics and maybe even more of the front-end, such as HTML, CSS, JavaScript, and React.
+               Of course, we were also informed about Git and GitHub. This course lasted 6 months (100 hours) in parallel,
+                I also worked intensively to implement these things for at least 3 times the duration of the course.
+                 Below, I will briefly describe what I learned in this course.
             </h3>
-        <img src={myDiplomaIt} alt="myDiploma" className={styles.imageStyle} />
+            <div className={styles.imageContainer}>
+        <img src={myDiplomaIt} alt="myDiploma" className={styles.imageStyle} id="myImage"
+          onClick={handleImageClick}
+          onMouseEnter={handleMouseEnter} 
+          onMouseLeave={handleMouseLeave}/> 
+        {showText && <div className={styles.imageText}>Click Me</div>}
+        </div>
        </div>
            
 
