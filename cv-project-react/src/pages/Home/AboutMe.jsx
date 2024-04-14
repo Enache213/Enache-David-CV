@@ -30,7 +30,7 @@ const AboutMe = () => {
     return(
         <div className={styles.mainContainer}>
          <div className={styles.aboutMeContainer}>
-            <h2 className={styles.h2Title}>About Me</h2>
+            <h2 className={styles.h2Title}>About Me</h2>  
        
              <h3 className={styles.contentStyle}>🚀📚 I am Junior Front-End Developer from Iasi,
             seeking an opportunity to develop and apply my skills in a professional setting.

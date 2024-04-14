@@ -17,3 +17,15 @@
        // eliminăm marginile paragrafului pentru a evita spațiile inutile
     }
   }
+  @media screen and (max-width: 768px) {
+    .typingContainer {
+      margin-bottom: 5rem;
+    }
+  
+    .typingContainer .textEffect {
+      font-size: 1rem;
+      margin-left: 2rem;
+      margin-top: -3rem;
+      font-weight: bold;
+    }
+  }

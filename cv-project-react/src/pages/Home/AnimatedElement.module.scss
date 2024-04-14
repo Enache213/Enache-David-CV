@@ -73,4 +73,18 @@
     
      
     }
-    
+    @media only screen and (max-width: 768px) {
+        .animatedElement {
+          .text {
+            display: none;
+          }
+        }
+      }
+      
+      @media only screen and (max-width: 480px) {
+        .animatedElement {
+          .text {
+            display: none;
+          }
+        }
+      }
