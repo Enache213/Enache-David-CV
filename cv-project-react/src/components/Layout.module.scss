@@ -8,12 +8,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; // Plasează imaginea de fundal în spatele conținutului
+    z-index: -1; 
     background-image: url('calea/catre/imaginea-de-fundal.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .content {
-    z-index: 1; // Asigură că conținutul este plasat deasupra imaginii de fundal
+    z-index: 1;
 }

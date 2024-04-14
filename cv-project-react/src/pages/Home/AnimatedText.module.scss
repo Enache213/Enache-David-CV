@@ -2,7 +2,7 @@
     position: relative;
     font-family: Arial, sans-serif;
     font-size: 1rem;
-    color: #333; // culoare textului
+    color: #333; 
     margin-bottom: 10rem;
 
     .textEffect{
@@ -13,8 +13,6 @@
       font-size: 3rem;
       margin-left: 10rem;
       margin-top: -5rem;
-      
-       // eliminăm marginile paragrafului pentru a evita spațiile inutile
     }
   }
   @media screen and (max-width: 768px) {
@@ -23,9 +21,22 @@
     }
   
     .typingContainer .textEffect {
-      font-size: 1rem;
+      position: relative;
+      bottom: 2rem;
+      font-size: 2rem;
       margin-left: 2rem;
       margin-top: -3rem;
       font-weight: bold;
+    }
+  }
+  @media screen and (max-width: 630px) {
+    .typingContainer .textEffect {
+      font-size: 14px; 
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1125px) {
+    .typingContainer .textEffect  {
+      font-size: 24px;
+      margin-left: 5rem; 
     }
   }

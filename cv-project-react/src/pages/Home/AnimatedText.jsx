@@ -3,7 +3,7 @@ import styles from './AnimatedText.module.scss';
 
 const AnimatedText = () => {
   const [text, setText] = useState('');
-  const sentences = ["I'm David and this is my cv"]; //i'm a junior front end developer
+  const sentences = ["I'm David and this is my cv"]; 
   const typingSpeed = 50; // Viteza de tastare în milisecunde
   const initialDelay = 1300; // Timpul de întârziere inițial în milisecunde
 
@@ -20,7 +20,6 @@ const AnimatedText = () => {
             setText(currentText);
             setTimeout(type, typingSpeed);
           } else {
-            // Afișăm întregul text după efectul de tipizare
             setText(currentSentence);
           }
         }
@@ -28,8 +27,6 @@ const AnimatedText = () => {
 
       type();
     }, initialDelay);
-
-    // Nu este necesar să curățăm timer-ul, deoarece textul nu va fi șters ulterior
 
   }, []);
 

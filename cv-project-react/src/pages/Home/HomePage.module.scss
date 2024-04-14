@@ -10,11 +10,7 @@
            margin-right: 5rem;
          margin-top: 4rem;
 
-
-
-
         .myImg {
-            
             cursor: pointer;
             transition: 0.4s;
             user-select: none;
@@ -22,16 +18,7 @@
             position: relative;
             width: 18rem;
             height: 18rem;
-         
             margin-top: 1rem;
-
-            &:hover {
-                filter: grayscale(0%);
-                transform: scale(1.05);
-                width: 20rem;
-                height: 20rem;
-                
-            }
         }
     }
     
@@ -103,13 +90,13 @@
 @media only screen and (max-width: 768px) {
   .mainContainer {
     .imageContainer {
-      width: 10rem;
-      height: 10rem;
+      width: 8rem;
+      height: 8rem;
       margin-right: 2rem;
 
       .myImg {
-        width: 9rem;
-        height: 9rem;
+        width: 6rem;
+        height: 6rem;
       }
     }
 
@@ -138,3 +125,4 @@
     }
   }
 }
+

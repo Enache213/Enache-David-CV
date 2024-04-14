@@ -1,4 +1,4 @@
-// import Footer from "../Footer/Footer";
+
 import HomePage from "../../pages/Home/HomePage";
 
 const Home = () => {
@@ -6,7 +6,6 @@ const Home = () => {
         <div>
 
             <HomePage></HomePage>
-            {/* <Footer></Footer> */}
         </div>
 
     )
