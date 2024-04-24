@@ -1,7 +1,6 @@
 .mainContainer{
-  height: 63vh;
-  margin-top: 10rem;
-
+  height: 66vh;
+  margin-top: 11rem;
 .formStyle{
     font-size: 3rem;
     display: flex;
@@ -15,7 +14,19 @@
     align-items: center;
     justify-content: center;
     color: rgb(51, 39, 28);
-    
+
+    .input {
+      background-color: rgb(0 0 0 / 32%);
+      color: whiteSmoke;
+      border: 2px solid black;
+      padding: 0.2rem;
+      transition: border-color 0.3s ease; /* Efect de tranziție pentru culoarea marginii la hover */
+      border-radius: 7px;
+      &:hover {
+        border-color: #007bff; /* Culoare de bordură la hover */
+         transform: scale(1.02); 
+      }
+    }
 }
 .button{
     display: flex;
@@ -28,6 +39,12 @@
   margin-top: 1rem;
   margin-left: 54%;
   background-color: rgba(0, 0, 0, 0.64);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 7px;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 }

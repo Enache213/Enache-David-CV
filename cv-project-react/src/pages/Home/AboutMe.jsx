@@ -44,7 +44,6 @@ const AboutMe = () => {
 
 
          <div className={styles.courseContainer}>
-         
              <h2 className={styles.titleStyle}>Course Front-End Developer   2023-2024</h2>
             <div className={styles.courseSection}>
             <h3 className={styles.styleContent}>

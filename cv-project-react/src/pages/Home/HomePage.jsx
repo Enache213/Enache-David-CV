@@ -4,7 +4,7 @@ import photoImgMe from '../images/photoImgMe.png'
 import styles from './HomePage.module.scss'
 import AnimatedElement from './AnimatedElement';
 import AnimatedText from './AnimatedText';
-
+import ContactMe from './ContactMe'
 //https://www.catalinciobanu.ro/evenimente
 //camelia@cvmasters.ro
 const HomePage = () => {    
@@ -19,6 +19,7 @@ const HomePage = () => {
 
         <div className={styles.aboutMeContainer}>
             <h2 className={styles.h2Title}>About Me</h2>
+            
              <h3 className={styles.contentStyle}>🚀📚 I am Junior Front-End Developer from Iasi,
               seeking an opportunity to develop and apply my skills in a professional setting.
              With a passion for coding and a strong desire to learn,
@@ -71,7 +72,9 @@ const HomePage = () => {
   </div>
 </div>
       <AnimatedElement />
+      <ContactMe></ContactMe>
     </div>
+    
     )
  
 }

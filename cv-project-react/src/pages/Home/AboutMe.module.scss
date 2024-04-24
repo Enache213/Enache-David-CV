@@ -1,6 +1,6 @@
 
 .mainContainer{
-  margin-top: 4rem;
+  margin-top: 2rem;
     width: 100%;
     // margin-bottom: 40rem;
         
@@ -16,18 +16,16 @@
       align-items: center;
       justify-content: center;
       position: relative;
-      top: 2rem;
+      top: 2.3rem;
      color: rgb(0 0 0 / 64%);
      font-size: 3rem;
-     
    
     }
   
     .contentStyle {
       color:  rgb(51, 39, 28);
-      margin: 2rem  ;
+      margin-left: 3rem;
       font-size: 1.5rem;
- 
     }
  
   }
@@ -35,12 +33,13 @@
   .courseContainer{
 margin-top: 5rem;
 
+
 .titleStyle{
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  bottom: 1rem;
+  bottom: 0.5rem;
   color:  rgb(0 0 0 / 64%);
   font-size: 2.3rem;
   margin-bottom: 2rem;
@@ -49,18 +48,16 @@ margin-top: 5rem;
 .courseSection{
   position: relative;
   display: flex;
-  width: 80%;
-  height: auto;
-  justify-content: space-between;
+  width: 94%;
   align-items: center;
-  margin: 2rem;
-
-.styleContent{
-   margin-top: 4rem;
+  margin-left: 2rem;
+  .styleContent{
    color: rgb(51 39 28);
-   margin: 0 2rem;
+   margin: 0 1rem;
    font-size: 1.5rem;
    width: 100%;
+   
+   
 }
 .imageContainer{
   
@@ -114,7 +111,8 @@ margin-top: 5rem;
 
 
 .schoolStyle{
-  
+  position: relative;
+  top: 2rem;
 
   .titleSchoolStyle{
     display: flex;
@@ -131,9 +129,10 @@ margin-top: 5rem;
 }
 
 .styleText {
-   
+   display: inline-flex;
    color: rgb(51, 39, 28);
    font-size: 1.3rem;
+   margin-left: 2.3rem;
 }
 .yearsStyle{
   font-size: 1.3rem;

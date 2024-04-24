@@ -1,7 +1,6 @@
 import styles from './ContactMe.module.scss'
 import { useState } from 'react';
 
-
 const isValidEmail = (email) => {
     // Expresie regulată pentru validarea adresei de email
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -50,10 +49,11 @@ const ContactMe = () => {
     return(
         <div className={styles.mainContainer}>
       <h2 className={styles.formStyle}>Contact Me</h2>
+      
       <form onSubmit={handleSubmit}>
         <div className={styles.field}>
           <label htmlFor="firstName">First Name:</label>
-          <input
+          <input className={styles.input}
             type="text"
             id="firstName"
             name="firstName"
@@ -67,7 +67,7 @@ const ContactMe = () => {
         </div>
         <div className={styles.field}>
           <label htmlFor="lastName">Last Name:</label>
-          <input
+          <input className={styles.input}
             type="text"
             id="lastName"   
             name="lastName"
@@ -80,7 +80,7 @@ const ContactMe = () => {
         </div>
         <div className={styles.field}>
           <label htmlFor="gmail">Gmail:</label>
-          <input
+          <input className={styles.input}
             type="gmail"
             id="gmail"
             name="gmail"
@@ -93,7 +93,7 @@ const ContactMe = () => {
         </div>
         <div className={styles.field}>
             <label htmlFor="message">Message:</label>
-                <textarea
+                <textarea className={styles.input}
                     id="message"
                     name="message"
                     value={formData.message}
@@ -105,6 +105,7 @@ const ContactMe = () => {
         <button className={styles.button} type="submit">Send Email</button>
       </form>
     </div>
+    
     )
 }
 

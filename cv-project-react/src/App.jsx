@@ -27,12 +27,11 @@ function App() {
         <Route path="/home" element={<Home />} />
         {/* <Route path="/" element={<HomePage/>} */}
         <Route element={<NotFound />} />
-        
-     
       </Routes>
   <Layout></Layout>
   <Footer></Footer>
     </>
+    
   );
 }
 
