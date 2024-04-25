@@ -24,7 +24,6 @@ const AnimatedText = () => {
           }
         }
       };
-
       type();
     }, initialDelay);
 

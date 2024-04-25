@@ -48,6 +48,10 @@
       color: rgba(0, 0, 0, 0.64);
       font-weight: bold;
       font-size: 1.3rem;
+      &:hover{
+        // display: flex;
+        transform: translateY(4px);
+      }
 
     }
   }

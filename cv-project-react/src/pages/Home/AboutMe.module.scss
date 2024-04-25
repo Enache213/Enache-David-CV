@@ -1,8 +1,6 @@
 
 .mainContainer{
   margin-top: 2rem;
-    width: 100%;
-    // margin-bottom: 40rem;
         
     .aboutMeContainer {
     display: flex;
@@ -51,13 +49,11 @@ margin-top: 5rem;
   width: 94%;
   align-items: center;
   margin-left: 2rem;
+
   .styleContent{
    color: rgb(51 39 28);
    margin: 0 1rem;
-   font-size: 1.5rem;
-   width: 100%;
-   
-   
+   font-size: 1.5rem; 
 }
 .imageContainer{
   
@@ -69,15 +65,13 @@ margin-top: 5rem;
 
 
 .imageText {
-  position: absolute;
+  position: absolute;  
   top: 3%;
   margin-left:15%;
   left: 87%;
   transform: translate(-50%, -50%);
   color: rgb(51 39 28);
   font-size: 1.2rem;
-  padding: 10px;
-  opacity: 0;
 }
 }
 .imageContainer:hover .imageText {

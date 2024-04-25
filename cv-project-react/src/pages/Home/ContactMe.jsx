@@ -23,9 +23,6 @@ const ContactMe = () => {
           [name]: value
         }));
       };
-
-
-      
     
       const handleSubmit = event => {
         event.preventDefault();
@@ -49,7 +46,7 @@ const ContactMe = () => {
     return(
         <div className={styles.mainContainer}>
       <h2 className={styles.formStyle}>Contact Me</h2>
-      
+
       <form onSubmit={handleSubmit}>
         <div className={styles.field}>
           <label htmlFor="firstName">First Name:</label>
@@ -61,10 +58,9 @@ const ContactMe = () => {
             onChange={handleChange}
             required
             style={{ backgroundColor: 'rgb(0 0 0 / 32%)', 
-                     color: 'whiteSmoke', border: '2px solid black' }} 
-            
-          />
+                     color: 'whiteSmoke', border: '2px solid black' }}/>
         </div>
+
         <div className={styles.field}>
           <label htmlFor="lastName">Last Name:</label>
           <input className={styles.input}
@@ -75,9 +71,9 @@ const ContactMe = () => {
             onChange={handleChange}
             required
             style={{ backgroundColor: 'rgb(0 0 0 / 32%)', 
-            color: 'whiteSmoke',  border: '2px solid black'}} 
-          />
+            color: 'whiteSmoke',  border: '2px solid black'}} />
         </div>
+
         <div className={styles.field}>
           <label htmlFor="gmail">Gmail:</label>
           <input className={styles.input}
@@ -88,9 +84,9 @@ const ContactMe = () => {
             onChange={handleChange}
             required
             style={{ backgroundColor: 'rgb(0 0 0 / 32%)', 
-            color: 'whiteSmoke',  border: '2px solid black' }} 
-          />
+            color: 'whiteSmoke',  border: '2px solid black' }} />
         </div>
+
         <div className={styles.field}>
             <label htmlFor="message">Message:</label>
                 <textarea className={styles.input}
@@ -99,9 +95,11 @@ const ContactMe = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    style={{ backgroundColor: 'rgb(0 0 0 / 32%)', color: 'whiteSmoke', border: '2px solid black' }}
-                    />
+                    style={{ backgroundColor: 'rgb(0 0 0 / 32%)',
+                     color: 'whiteSmoke',
+                     border: '2px solid black' }}/>
          </div>
+
         <button className={styles.button} type="submit">Send Email</button>
       </form>
     </div>

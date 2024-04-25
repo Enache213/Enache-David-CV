@@ -45,6 +45,7 @@ const AboutMe = () => {
 
          <div className={styles.courseContainer}>
              <h2 className={styles.titleStyle}>Course Front-End Developer   2023-2024</h2>
+
             <div className={styles.courseSection}>
             <h3 className={styles.styleContent}>
             I could get a nice description from the internet about what I did in this course,
@@ -54,6 +55,7 @@ const AboutMe = () => {
                 I also worked intensively to implement these things for at least 3 times the duration of the course.
                  Below, I will briefly describe what I learned in this course.
             </h3>
+            
             <div className={styles.imageContainer}>
         <img src={myDiplomaIt} alt="myDiploma" className={styles.imageStyle} id="myImage"
           onClick={handleImageClick}

@@ -4,15 +4,14 @@
   font-size: 1.2rem;
   position: absolute; 
   width: 100%; 
-  // padding: 0.6rem;
-  left: 0; 
+  padding: 0.5rem;
+  left: 0;
   background-color: rgba(90, 63, 37, 0.28);
-  // background-color: black;
   .FooterCon { 
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
     .socialIco {
       display: flex;
 
@@ -23,11 +22,12 @@
       }
 
       .icons {
-        margin-right: 0.5rem;
+        margin-right: 0.4rem;
         cursor: pointer;
         color: rgba(0, 0, 0, 0.64);
         border-radius: 50%;
         font-size: 1.8rem;
+      
       }
     }
   }

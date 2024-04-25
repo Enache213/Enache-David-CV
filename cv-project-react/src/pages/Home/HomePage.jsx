@@ -5,8 +5,6 @@ import styles from './HomePage.module.scss'
 import AnimatedElement from './AnimatedElement';
 import AnimatedText from './AnimatedText';
 import ContactMe from './ContactMe'
-//https://www.catalinciobanu.ro/evenimente
-//camelia@cvmasters.ro
 const HomePage = () => {    
     return(
         

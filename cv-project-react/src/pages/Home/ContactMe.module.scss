@@ -18,8 +18,7 @@
     .input {
       background-color: rgb(0 0 0 / 32%);
       color: whiteSmoke;
-      border: 2px solid black;
-      padding: 0.2rem;
+      padding: 0.1rem;
       transition: border-color 0.3s ease; /* Efect de tranziție pentru culoarea marginii la hover */
       border-radius: 7px;
       &:hover {
@@ -29,9 +28,6 @@
     }
 }
 .button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
   color: whitesmoke;
   font-size: 1rem;
   cursor: pointer;

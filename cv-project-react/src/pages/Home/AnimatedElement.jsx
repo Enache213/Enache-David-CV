@@ -1,12 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import styles from './AnimatedElement.module.scss'; 
-// import myImg from '../images/myImg.jpg'
 
 const AnimatedElement = () => {
     const [visible, setVisible] = useState(false);
     
     useEffect(() => {
-        // console.log(visible)
         const timeout = setTimeout(() => {
             setVisible(true);
         }, 300);
